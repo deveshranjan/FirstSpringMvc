@@ -2,6 +2,8 @@
 package com.booktheticket;
 
 import javax.inject.Inject;
+
+import java.util.List;
 import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -15,6 +17,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class Welcome {
+	
+@Autowired
+MoviesDao movies;
+
 @RequestMapping("/")
 public ModelAndView showWelcomePage()
 {
@@ -22,11 +28,13 @@ public ModelAndView showWelcomePage()
 	model.addObject("user","Devesh");
 	return model;
 }
-@RequestMapping("/home")
-public String showWelcome(ModelMap m)
+@RequestMapping("/movies")
+public ModelAndView showWelcome()
 {
-  m.addAttribute("user", "Deranjan");
-  return "Welcome";
+	ModelAndView model = new ModelAndView("MovieList");
+	List<Movie> movie = movies.getAllMovies();
+    model.addObject("movie",movie);
+    return model;
 }
 }
 

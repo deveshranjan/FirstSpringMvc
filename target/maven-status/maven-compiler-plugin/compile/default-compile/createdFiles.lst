@@ -1,2 +1,5 @@
+com\booktheticket\Movie.class
 com\booktheticket\Welcome.class
-com\booktheticket\TestConnection.class
+com\booktheticket\JdbcPropertiesFactoryBean$1.class
+com\booktheticket\MoviesDao.class
+com\booktheticket\JdbcPropertiesFactoryBean.class

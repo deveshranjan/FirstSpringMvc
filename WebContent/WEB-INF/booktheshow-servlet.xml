@@ -31,5 +31,17 @@ value="jdbc:oracle:thin:@localhost:1521:orcl"/>
 <property name="initialSize" value="5"/>
 </bean>
 
+<bean id = "jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+<!-- reference to a defined data source -->
+<constructor-arg ref="dataSource" />
+</bean>
 
+<bean id="props" class="com.booktheticket.JdbcPropertiesFactoryBean">
+    <property name="jdbcTemplate" ref ="jdbcTemplate"/>
+    <property name="tableName" value="movies" />
+    <property name="keyColumn" value="moviename" />
+    <property name="valueColumn" value="moviename" />
+</bean>
+
+<context:property-placeholder properties-ref="props" />
 </beans>
