@@ -3,3 +3,6 @@ com\booktheticket\Welcome.class
 com\booktheticket\JdbcPropertiesFactoryBean$1.class
 com\booktheticket\MoviesDao.class
 com\booktheticket\JdbcPropertiesFactoryBean.class
+com\booktheticket\Users.class
+com\booktheticket\UsersDao.class
+com\booktheticket\TagHandler.class

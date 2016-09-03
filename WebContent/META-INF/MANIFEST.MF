@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Manifest-Version: 1.0
 Class-Path: 
 
@@ -6,4 +6,3 @@ Class-Path:
 Manifest-Version: 1.0
 Class-Path: 
 
->>>>>>> origin/master

@@ -7,17 +7,13 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/deranjan/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/javax.inject_1.0.0.v20091030.jar"/>
-	<classpathentry kind="lib" path="C:/Users/deranjan/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.apache.commons.logging_1.0.4.v201101211617.jar"/>
-	<classpathentry kind="lib" path="C:/Users/deranjan.ORADEV/Downloads/commons-dbcp2-2.1.1-bin/commons-dbcp2-2.1.1/commons-dbcp2-2.1.1.jar">
+	<classpathentry kind="lib" path="C:/Users/deranjan/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.apache.commons.logging_1.0.4.v201101211617.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/deranjan.ORADEV/Downloads/commons-pool2-2.4.2-bin/commons-pool2-2.4.2/commons-pool2-2.4.2.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/deranjan.ORADEV/Downloads/commons-dbcp2-2.1.1-bin/commons-dbcp2-2.1.1/commons-dbcp2-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deranjan.ORADEV/Downloads/commons-pool2-2.4.2-bin/commons-pool2-2.4.2/commons-pool2-2.4.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/deranjan.ORADEV/Downloads/sqldeveloper-4.1.0.19.07-no-jre/sqldeveloper/ords/examples/plugins/lib/ojdbc6-12.1.0.2.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
